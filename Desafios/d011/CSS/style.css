@@ -1,0 +1,11 @@
+ .espaco{
+    width: 100%;
+ }
+ .astro{
+    position: relative;
+
+
+ }
+ main{
+    background-image: url('astronauta.png');
+ }

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+:root{ 
+    --fonte: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+        background-color: rgba(0, 0, 0, 0.822);
+        color: white;
+    }
+   header{
+        text-align: center;
+        margin-bottom: 50  px; 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-weight: normal;
+        position: relative;   
+        background-color: rgba(0, 0, 0, 0.678);;
+        position: sticky;
+        top: 0;
+        margin: -30px 0px;
+        padding-bottom:5px ;
+    }
+    #logo{
+        padding: 10px;
+    }
+    nav > a{ text-decoration: none ;
+        color: wheat;
+        padding: 6px 6px  6px  10px;
+        padding-left: px;
+       font-family: Arial, Helvetica, sans-serif;
+        margin-top:100 px;
+        display: inline;
+    }
+    nav > a:hover{
+        color: black; 
+        background-color: wheat;
+        transition-duration: 0.7s;
+        border-radius: 8px;  
+        
+    }
+    nav{
+        margin:30px ;
+        text-align: center;
+        padding: 10px 40px;
+        
+    }
+    main{
+        border-radius: 10px;
+        margin: auto;
+        min-height: 300px;
+        max-width: 1000px;
+        padding: 40px;
+        line-height: 2em;
+        color: wheat;
+        margin-bottom: 10px;
+    }
+    main p {
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    article img{
+        width: 500px;
+        height: 300px; 
+       right: 10px;
+    }
+    .telefone{
+        width: 50%;
+        padding: 10px;
+        margin-left: 11px;
+    }
+    .telefone img {
+        padding: -20px;
+        width: 340px;
+        height: 200px;
+    }
+    main h2 {
+        text-align: center ;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+    }
+    .telefone2{
+        display: inline; 
+        
+
+    }
+   
+    div > ul {
+        float: right;
+        display: none;
+        color: black;
+        list-style: none;
+    }
+    ul a {
+        color: white;
+        text-decoration: none;
+        text-align: justify; 
+        font-weight: normal;
+    }
+    div:hover > ul{
+        display: block;
+        color: black ;
+        transition: 1s;
+    }
+    ul a:hover{ background-color: bisque;
+        color: black; 
+        transition-duration: 0.6s;
+        border-radius: 5px;
+        padding: 4px;
+        
+       
+    }
+
+    
+    
+    footer{ text-align: center;
+       color: black; 
+       background-color: white; 
+       padding: 10px;
+       border-radius: 5px; 
+       font-family: Arial, Helvetica, sans-serif;
+
+    }
+    footer a {
+        color: black;
+        text-decoration: none; 
+    }
+    .mac p {
+        text-align: justify;
+    }
+    .airpods img {
+        width: 200px;
+        height: 140px;  
+    }
+    #ap2{  width: 200px;
+height: 120px; 
+padding-bottom: 30px;
+    }
+    .airpods{
+        margin: auto;
+ text-align: center;
+    }
+    .ipad img{
+        width: 400px;
+    }
+    .logo img {
+        width: 50px;
+        padding: 10px;
+        margin: px;
+    }
+    .logo img:hover{
+        color: red;
+        padding: 10px;
+    }
+    #insta{
+        height: 30px;
+        width: 30px;
+    }
+    #lk{
+        height: 40px;
+        width: 40px;
+        padding-bottom: 5px;  
+    }
+   
