@@ -21,16 +21,15 @@ header img{
   
 
 }
-header{
+header{ 
     
 }
 main{
     text-align: center;
-    width: 400px
+    width: px
 }
-main p { 
-    background-color: ;
-    float: right ; 
+article p { 
+    
     text-align: justify; 
     width: px ;
  
@@ -38,7 +37,7 @@ main p {
     font-family: var(--fonte2);
 }
 
-img{ 
+article img{ 
     width: 600px;
     padding: 20px; 
     background-color: ;
@@ -74,13 +73,13 @@ footer a {
     
 }
 footer{
-    background-color: ;
+    background-color: rgb(211, 23, 23); ;
     color: black;
     text-align: center;
     height: 90px;
 }
 footer a:hover{
-    color: rgb(211, 23, 23);
+    color: white ; 
 } 
 footer p {
     padding: 40px;
