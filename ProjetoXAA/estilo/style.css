@@ -1,0 +1,87 @@
+@font-face {
+    font-family:'XAA' ;
+    src: url('../fonts/Harabara-Bold.ttf') format(truetype);
+   
+        font-family: 'XAA2';
+        src: url('../fonts/Titillium/TitilliumText22L-600wt.otf') format('opentype');
+    }
+
+:root{
+    --fonte: 'XAA' ;
+    --fonte2: 'XAA2'
+}
+body {
+    background-image: url(../imagens/);
+}
+
+header img{ 
+    width: 100px;
+    margin: 10px;
+    
+  
+
+}
+header{
+    
+}
+main{
+    text-align: center;
+    width: 400px
+}
+main p { 
+    background-color: ;
+    float: right ; 
+    text-align: justify; 
+    width: px ;
+ 
+    ;
+    font-family: var(--fonte2);
+}
+
+img{ 
+    width: 600px;
+    padding: 20px; 
+    background-color: ;
+   
+
+}
+nav {
+height:px ;
+width: px;
+padding: px;
+margin-top: 0px;
+text-align: center;
+}
+ nav a{
+    color: rgb(211, 23, 23); 
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: var(--fonte2 );
+    width: 70px;
+    margin: 30px;
+}
+nav a:hover{
+    color: black; 
+    background-color: rgb(211, 23, 23);
+    transition-duration: 0.5s;
+}
+footer a {
+    color: black; 
+    text-decoration: none;
+
+    
+}
+footer{
+    background-color: ;
+    color: black;
+    text-align: center;
+    height: 90px;
+}
+footer a:hover{
+    color: rgb(211, 23, 23);
+} 
+footer p {
+    padding: 40px;
+}
